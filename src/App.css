@@ -1,0 +1,95 @@
+.margin-top-2{
+  margin-top: 2rem;
+}
+
+.email-item-content{
+
+    font-size: 0.5rem;
+    padding-left: 2.5rem;
+    width: 40rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.email-view-sender-holder{
+
+   
+  display: flex;
+  justify-content: end;
+
+}
+
+.subject_spec{
+
+   width: 100%;
+    padding-left: 2.5rem;
+    font-size: 0.8rem;
+}
+.custom-delete-button{
+  padding-right: 0.4rem;
+  cursor: pointer;
+
+}
+
+.increase-font{
+
+  font-size: 2.5rem;
+}
+
+.increase-font + div {
+ 
+  padding-left: .5rem;
+  font-size: 0.8rem;
+
+}
+.increase-font + div span{
+
+  position: relative;
+  top: .5rem;
+}
+.date-holder-mail{
+  padding-left: 2.8rem;
+  font-size: 0.6rem;
+  position: relative;
+  bottom: 1.2rem;
+}
+
+.mail-content{
+
+   word-break:normal;
+   font-size: 0.5rem;
+
+}
+
+.anchor-dropdown{
+  cursor: pointer;
+}
+
+.red-flag{
+  color:red;
+}
+
+.bg-dark{
+  background-color: #b5bcc3;
+}
+.bg-transparent{
+  background-color: transparent;
+}
+
+.emailcontentBox{
+  border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.navbar-nav a, .navbar a, .margin-top-2 a:not(.excluded-anchor) {
+
+  pointer-events: none;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
